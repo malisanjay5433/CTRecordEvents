@@ -1,0 +1,6 @@
+framework module Pods_ClearTap {
+  umbrella header "Pods-ClearTap-umbrella.h"
+
+  export *
+  module * { export * }
+}

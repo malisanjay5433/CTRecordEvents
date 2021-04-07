@@ -1,0 +1,6 @@
+framework module Pods_ClearTapTests {
+  umbrella header "Pods-ClearTapTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

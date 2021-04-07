@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49EB944C0BE9A7C13F9BD9B9 /* Pods_ClearTap_ClearTapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F1827ECFC44E2EF4F91C0C /* Pods_ClearTap_ClearTapUITests.framework */; };
+		5E77B575C3309AEBEDC0FB23 /* Pods_ClearTap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CD965CF177CB7C539A27C7 /* Pods_ClearTap.framework */; };
+		7261B437723A82ED5777BB08 /* Pods_ClearTapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A47B964E07AF7D3D32BA235 /* Pods_ClearTapTests.framework */; };
+		918509F0261CBCCF0044B04D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918509EF261CBCCF0044B04D /* AppDelegate.swift */; };
+		918509F2261CBCCF0044B04D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918509F1261CBCCF0044B04D /* SceneDelegate.swift */; };
+		918509F4261CBCCF0044B04D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918509F3261CBCCF0044B04D /* ViewController.swift */; };
+		918509F7261CBCCF0044B04D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918509F5261CBCCF0044B04D /* Main.storyboard */; };
+		918509F9261CBCD20044B04D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918509F8261CBCD20044B04D /* Assets.xcassets */; };
+		918509FC261CBCD20044B04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918509FA261CBCD20044B04D /* LaunchScreen.storyboard */; };
+		91850A07261CBCD20044B04D /* ClearTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91850A06261CBCD20044B04D /* ClearTapTests.swift */; };
+		91850A12261CBCD20044B04D /* ClearTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91850A11261CBCD20044B04D /* ClearTapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91850A03261CBCD20044B04D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 918509E4261CBCCF0044B04D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 918509EB261CBCCF0044B04D;
+			remoteInfo = ClearTap;
+		};
+		91850A0E261CBCD20044B04D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 918509E4261CBCCF0044B04D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 918509EB261CBCCF0044B04D;
+			remoteInfo = ClearTap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		176BA86FE5B2F3FB4B3186A2 /* Pods-ClearTap-ClearTapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearTap-ClearTapUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClearTap-ClearTapUITests/Pods-ClearTap-ClearTapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		17DF46BAB6CB2E6DAD35CC26 /* Pods-ClearTapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearTapTests.release.xcconfig"; path = "Target Support Files/Pods-ClearTapTests/Pods-ClearTapTests.release.xcconfig"; sourceTree = "<group>"; };
+		21CD965CF177CB7C539A27C7 /* Pods_ClearTap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearTap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4568116B26254C8D6F7E034E /* Pods-ClearTapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearTapTests.debug.xcconfig"; path = "Target Support Files/Pods-ClearTapTests/Pods-ClearTapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5989A50FC8633BADC021305F /* Pods-ClearTap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearTap.release.xcconfig"; path = "Target Support Files/Pods-ClearTap/Pods-ClearTap.release.xcconfig"; sourceTree = "<group>"; };
+		64F1827ECFC44E2EF4F91C0C /* Pods_ClearTap_ClearTapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearTap_ClearTapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A47B964E07AF7D3D32BA235 /* Pods_ClearTapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearTapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		918509EC261CBCCF0044B04D /* ClearTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		918509EF261CBCCF0044B04D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		918509F1261CBCCF0044B04D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		918509F3261CBCCF0044B04D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		918509F6261CBCCF0044B04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		918509F8261CBCD20044B04D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		918509FB261CBCD20044B04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		918509FD261CBCD20044B04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91850A02261CBCD20044B04D /* ClearTapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearTapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91850A06261CBCD20044B04D /* ClearTapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearTapTests.swift; sourceTree = "<group>"; };
+		91850A08261CBCD20044B04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91850A0D261CBCD20044B04D /* ClearTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearTapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91850A11261CBCD20044B04D /* ClearTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearTapUITests.swift; sourceTree = "<group>"; };
+		91850A13261CBCD20044B04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8A598B85AB03F1DFA9EC9A /* Pods-ClearTap-ClearTapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearTap-ClearTapUITests.release.xcconfig"; path = "Target Support Files/Pods-ClearTap-ClearTapUITests/Pods-ClearTap-ClearTapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E55C1450F3EF9DDF2D5A75E5 /* Pods-ClearTap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearTap.debug.xcconfig"; path = "Target Support Files/Pods-ClearTap/Pods-ClearTap.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		918509E9261CBCCF0044B04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E77B575C3309AEBEDC0FB23 /* Pods_ClearTap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918509FF261CBCD20044B04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7261B437723A82ED5777BB08 /* Pods_ClearTapTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91850A0A261CBCD20044B04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EB944C0BE9A7C13F9BD9B9 /* Pods_ClearTap_ClearTapUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CDF1C0DA9E806064B3D5D7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21CD965CF177CB7C539A27C7 /* Pods_ClearTap.framework */,
+				64F1827ECFC44E2EF4F91C0C /* Pods_ClearTap_ClearTapUITests.framework */,
+				6A47B964E07AF7D3D32BA235 /* Pods_ClearTapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		918509E3261CBCCF0044B04D = {
+			isa = PBXGroup;
+			children = (
+				918509EE261CBCCF0044B04D /* ClearTap */,
+				91850A05261CBCD20044B04D /* ClearTapTests */,
+				91850A10261CBCD20044B04D /* ClearTapUITests */,
+				918509ED261CBCCF0044B04D /* Products */,
+				ECB41880C112774442B9EFC4 /* Pods */,
+				3CDF1C0DA9E806064B3D5D7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		918509ED261CBCCF0044B04D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				918509EC261CBCCF0044B04D /* ClearTap.app */,
+				91850A02261CBCD20044B04D /* ClearTapTests.xctest */,
+				91850A0D261CBCD20044B04D /* ClearTapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		918509EE261CBCCF0044B04D /* ClearTap */ = {
+			isa = PBXGroup;
+			children = (
+				91850A27261CBD250044B04D /* View */,
+				91850A26261CBCF50044B04D /* AppDelegate+SceneDelegate */,
+				91850A22261CBCE30044B04D /* Controller */,
+				918509F8261CBCD20044B04D /* Assets.xcassets */,
+				918509FA261CBCD20044B04D /* LaunchScreen.storyboard */,
+				918509FD261CBCD20044B04D /* Info.plist */,
+			);
+			path = ClearTap;
+			sourceTree = "<group>";
+		};
+		91850A05261CBCD20044B04D /* ClearTapTests */ = {
+			isa = PBXGroup;
+			children = (
+				91850A06261CBCD20044B04D /* ClearTapTests.swift */,
+				91850A08261CBCD20044B04D /* Info.plist */,
+			);
+			path = ClearTapTests;
+			sourceTree = "<group>";
+		};
+		91850A10261CBCD20044B04D /* ClearTapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91850A11261CBCD20044B04D /* ClearTapUITests.swift */,
+				91850A13261CBCD20044B04D /* Info.plist */,
+			);
+			path = ClearTapUITests;
+			sourceTree = "<group>";
+		};
+		91850A22261CBCE30044B04D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				918509F3261CBCCF0044B04D /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		91850A26261CBCF50044B04D /* AppDelegate+SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				918509F1261CBCCF0044B04D /* SceneDelegate.swift */,
+				918509EF261CBCCF0044B04D /* AppDelegate.swift */,
+			);
+			name = "AppDelegate+SceneDelegate";
+			sourceTree = "<group>";
+		};
+		91850A27261CBD250044B04D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				918509F5261CBCCF0044B04D /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ECB41880C112774442B9EFC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E55C1450F3EF9DDF2D5A75E5 /* Pods-ClearTap.debug.xcconfig */,
+				5989A50FC8633BADC021305F /* Pods-ClearTap.release.xcconfig */,
+				176BA86FE5B2F3FB4B3186A2 /* Pods-ClearTap-ClearTapUITests.debug.xcconfig */,
+				CD8A598B85AB03F1DFA9EC9A /* Pods-ClearTap-ClearTapUITests.release.xcconfig */,
+				4568116B26254C8D6F7E034E /* Pods-ClearTapTests.debug.xcconfig */,
+				17DF46BAB6CB2E6DAD35CC26 /* Pods-ClearTapTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		918509EB261CBCCF0044B04D /* ClearTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91850A16261CBCD20044B04D /* Build configuration list for PBXNativeTarget "ClearTap" */;
+			buildPhases = (
+				C4214673906E31FB5E692CB8 /* [CP] Check Pods Manifest.lock */,
+				918509E8261CBCCF0044B04D /* Sources */,
+				918509E9261CBCCF0044B04D /* Frameworks */,
+				918509EA261CBCCF0044B04D /* Resources */,
+				74CD2CA1FFB241EBD300D809 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClearTap;
+			productName = ClearTap;
+			productReference = 918509EC261CBCCF0044B04D /* ClearTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91850A01261CBCD20044B04D /* ClearTapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91850A19261CBCD20044B04D /* Build configuration list for PBXNativeTarget "ClearTapTests" */;
+			buildPhases = (
+				27BCD321E1FE9D4D5C4F1FDA /* [CP] Check Pods Manifest.lock */,
+				918509FE261CBCD20044B04D /* Sources */,
+				918509FF261CBCD20044B04D /* Frameworks */,
+				91850A00261CBCD20044B04D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91850A04261CBCD20044B04D /* PBXTargetDependency */,
+			);
+			name = ClearTapTests;
+			productName = ClearTapTests;
+			productReference = 91850A02261CBCD20044B04D /* ClearTapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91850A0C261CBCD20044B04D /* ClearTapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91850A1C261CBCD20044B04D /* Build configuration list for PBXNativeTarget "ClearTapUITests" */;
+			buildPhases = (
+				B1DED5937567EF2623277AF2 /* [CP] Check Pods Manifest.lock */,
+				91850A09261CBCD20044B04D /* Sources */,
+				91850A0A261CBCD20044B04D /* Frameworks */,
+				91850A0B261CBCD20044B04D /* Resources */,
+				BE53F628D6153EBB5C482005 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91850A0F261CBCD20044B04D /* PBXTargetDependency */,
+			);
+			name = ClearTapUITests;
+			productName = ClearTapUITests;
+			productReference = 91850A0D261CBCD20044B04D /* ClearTapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		918509E4261CBCCF0044B04D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					918509EB261CBCCF0044B04D = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					91850A01261CBCD20044B04D = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 918509EB261CBCCF0044B04D;
+					};
+					91850A0C261CBCD20044B04D = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 918509EB261CBCCF0044B04D;
+					};
+				};
+			};
+			buildConfigurationList = 918509E7261CBCCF0044B04D /* Build configuration list for PBXProject "ClearTap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 918509E3261CBCCF0044B04D;
+			productRefGroup = 918509ED261CBCCF0044B04D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				918509EB261CBCCF0044B04D /* ClearTap */,
+				91850A01261CBCD20044B04D /* ClearTapTests */,
+				91850A0C261CBCD20044B04D /* ClearTapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		918509EA261CBCCF0044B04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918509FC261CBCD20044B04D /* LaunchScreen.storyboard in Resources */,
+				918509F9261CBCD20044B04D /* Assets.xcassets in Resources */,
+				918509F7261CBCCF0044B04D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91850A00261CBCD20044B04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91850A0B261CBCD20044B04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27BCD321E1FE9D4D5C4F1FDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClearTapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74CD2CA1FFB241EBD300D809 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClearTap/Pods-ClearTap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClearTap/Pods-ClearTap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClearTap/Pods-ClearTap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1DED5937567EF2623277AF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClearTap-ClearTapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE53F628D6153EBB5C482005 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClearTap-ClearTapUITests/Pods-ClearTap-ClearTapUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClearTap-ClearTapUITests/Pods-ClearTap-ClearTapUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClearTap-ClearTapUITests/Pods-ClearTap-ClearTapUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4214673906E31FB5E692CB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClearTap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		918509E8261CBCCF0044B04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918509F4261CBCCF0044B04D /* ViewController.swift in Sources */,
+				918509F0261CBCCF0044B04D /* AppDelegate.swift in Sources */,
+				918509F2261CBCCF0044B04D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918509FE261CBCD20044B04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91850A07261CBCD20044B04D /* ClearTapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91850A09261CBCD20044B04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91850A12261CBCD20044B04D /* ClearTapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91850A04261CBCD20044B04D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 918509EB261CBCCF0044B04D /* ClearTap */;
+			targetProxy = 91850A03261CBCD20044B04D /* PBXContainerItemProxy */;
+		};
+		91850A0F261CBCD20044B04D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 918509EB261CBCCF0044B04D /* ClearTap */;
+			targetProxy = 91850A0E261CBCD20044B04D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		918509F5261CBCCF0044B04D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				918509F6261CBCCF0044B04D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		918509FA261CBCD20044B04D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				918509FB261CBCD20044B04D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91850A14261CBCD20044B04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91850A15261CBCD20044B04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91850A17261CBCD20044B04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E55C1450F3EF9DDF2D5A75E5 /* Pods-ClearTap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHACMP5889;
+				INFOPLIST_FILE = ClearTap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappmaker.ClearTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91850A18261CBCD20044B04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5989A50FC8633BADC021305F /* Pods-ClearTap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHACMP5889;
+				INFOPLIST_FILE = ClearTap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappmaker.ClearTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91850A1A261CBCD20044B04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4568116B26254C8D6F7E034E /* Pods-ClearTapTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHACMP5889;
+				INFOPLIST_FILE = ClearTapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappmaker.ClearTapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClearTap.app/ClearTap";
+			};
+			name = Debug;
+		};
+		91850A1B261CBCD20044B04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17DF46BAB6CB2E6DAD35CC26 /* Pods-ClearTapTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHACMP5889;
+				INFOPLIST_FILE = ClearTapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappmaker.ClearTapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClearTap.app/ClearTap";
+			};
+			name = Release;
+		};
+		91850A1D261CBCD20044B04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 176BA86FE5B2F3FB4B3186A2 /* Pods-ClearTap-ClearTapUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHACMP5889;
+				INFOPLIST_FILE = ClearTapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappmaker.ClearTapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClearTap;
+			};
+			name = Debug;
+		};
+		91850A1E261CBCD20044B04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8A598B85AB03F1DFA9EC9A /* Pods-ClearTap-ClearTapUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHACMP5889;
+				INFOPLIST_FILE = ClearTapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappmaker.ClearTapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClearTap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		918509E7261CBCCF0044B04D /* Build configuration list for PBXProject "ClearTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91850A14261CBCD20044B04D /* Debug */,
+				91850A15261CBCD20044B04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91850A16261CBCD20044B04D /* Build configuration list for PBXNativeTarget "ClearTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91850A17261CBCD20044B04D /* Debug */,
+				91850A18261CBCD20044B04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91850A19261CBCD20044B04D /* Build configuration list for PBXNativeTarget "ClearTapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91850A1A261CBCD20044B04D /* Debug */,
+				91850A1B261CBCD20044B04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91850A1C261CBCD20044B04D /* Build configuration list for PBXNativeTarget "ClearTapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91850A1D261CBCD20044B04D /* Debug */,
+				91850A1E261CBCD20044B04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 918509E4261CBCCF0044B04D /* Project object */;
+}
